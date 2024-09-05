@@ -1,0 +1,19 @@
+server:
+  port: 7080
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://81.68.253.129:3306/ITDM?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: HJ940501.e
+
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 500MB
+      max-request-size: 500MB
+#日志配置
+logging:
+  config: classpath:logback-spring.xml
+
