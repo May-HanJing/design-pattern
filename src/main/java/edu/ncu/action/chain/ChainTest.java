@@ -1,4 +1,4 @@
-package edu.ncu.chain;
+package edu.ncu.action.chain;
 
 /**
  * @author HanJing

@@ -1,4 +1,4 @@
-package edu.ncu.template;
+package edu.ncu.action.template;
 
 import lombok.Data;
 import lombok.experimental.Accessors;
@@ -8,9 +8,9 @@ import lombok.experimental.Accessors;
  */
 @Data
 @Accessors(chain = true)
-public class Product {
+public class Store {
 
-    private String skuCode;
+    private String storeCode;
 
-    private String skuName;
+    private String storeName;
 }

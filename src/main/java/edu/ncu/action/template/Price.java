@@ -1,4 +1,4 @@
-package edu.ncu.template;
+package edu.ncu.action.template;
 
 import lombok.Data;
 

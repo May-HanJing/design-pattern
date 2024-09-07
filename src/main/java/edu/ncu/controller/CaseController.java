@@ -1,8 +1,7 @@
 package edu.ncu.controller;
 
-import edu.ncu.template.DataSyncProcessTemplate;
+import edu.ncu.action.template.DataSyncProcessTemplate;
 import jakarta.annotation.Resource;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,6 +18,7 @@ public class CaseController {
     @GetMapping("/template")
     public String template(){
         dataSyncProcessTemplate.excute("HJ091");
+
         return "OK";
     }
 }
