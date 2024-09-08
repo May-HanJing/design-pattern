@@ -1,7 +1,6 @@
 package edu.ncu.creator.builder;
 
 import edu.ncu.creator.builder.present.*;
-import edu.ncu.structure.builder.present.*;
 
 public class Builder {
     public IMenu levelOne(Double area) {
