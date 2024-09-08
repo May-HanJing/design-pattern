@@ -5,6 +5,12 @@ import edu.ncu.structure.builder.present.DecorationPackageController;
 import java.math.BigDecimal;
 
 public class BuildTest {
+
+    /**
+     * 建造者模式（Builder Pattern）：是将一个复杂对象的构建与它的表示分离，使得同样的构建过程可以创建不同的表示，
+     * 这种类型的设计模式属于创建型模式。
+     * @param args
+     */
     public static void main(String[] args) {
      /*   DecorationPackageController decoration = new DecorationPackageController();
         // 豪华欧式
