@@ -17,7 +17,7 @@ public class OrderService {
     public void pushOrder(List<Order> orders) {
         System.out.println("service to order is push,start...");
         for (Order order : orders) {
-            orderApi.pushOrder(orders);
+            orderApi.pullOrder(orders);
         }
         System.out.println("service order is push.end...");
     }
