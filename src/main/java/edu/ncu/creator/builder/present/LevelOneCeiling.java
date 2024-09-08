@@ -1,6 +1,6 @@
-package edu.ncu.structure.builder.present;
+package edu.ncu.creator.builder.present;
 
-import edu.ncu.structure.builder.Matter;
+import edu.ncu.creator.builder.Matter;
 
 import java.math.BigDecimal;
 

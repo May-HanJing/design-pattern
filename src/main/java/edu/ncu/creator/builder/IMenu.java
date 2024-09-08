@@ -1,4 +1,4 @@
-package edu.ncu.structure.builder;
+package edu.ncu.creator.builder;
 
 public interface IMenu {
     IMenu appendCeiling(Matter matter); // 吊顶

@@ -1,8 +1,4 @@
-package edu.ncu.structure.builder;
-
-import edu.ncu.structure.builder.present.DecorationPackageController;
-
-import java.math.BigDecimal;
+package edu.ncu.creator.builder;
 
 public class BuildTest {
 

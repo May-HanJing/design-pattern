@@ -1,4 +1,4 @@
-package edu.ncu.structure.builder;
+package edu.ncu.creator.builder;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
